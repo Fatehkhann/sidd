@@ -1,2 +1,3 @@
 Main Dark: #98252d
+second dark: #6f1b21
 Select Bordering: #d1414b
