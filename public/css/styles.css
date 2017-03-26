@@ -234,3 +234,50 @@ div.dimmer-truck {
     /*border: 3px solid #333;*/
     padding-top: 3%;
 }
+
+/*********************************************/
+        /*Our People*/
+/*********************************************/
+
+.bg-alt {
+    background-color: #fff;
+    width: 100%;
+}
+
+.lr-margin-zero {
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: #000;
+}
+.lr-margin-zero img {
+    opacity: 0.6;
+}
+
+.over-another {
+    position:relative;  
+}
+
+.people-rowoverlay{
+  position: absolute;
+  top: 50%;
+  left:0;
+  z-index:1;
+  bottom:0;
+  right:10%;
+  height:100%;
+}
+
+.people-card {
+    border-radius: .0rem;
+    border: 0px solid #fff;
+}
+
+@media screen and (max-width: 767px) {
+    .people-rowoverlay {
+        bottom: 30%;
+        position: relative;
+    }
+    .card-block h4 {
+        font-size: 18px;
+    }
+}
