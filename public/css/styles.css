@@ -277,7 +277,21 @@ div.dimmer-truck {
         bottom: 30%;
         position: relative;
     }
+
+    .lr-margin-zero img {
+        opacity: 1;
+    }
+
     .card-block h4 {
         font-size: 18px;
     }
+}
+
+
+#footer {
+    background-color: #d1414b;
+}
+
+.footer-contain {
+    padding-top: 5%;
 }
